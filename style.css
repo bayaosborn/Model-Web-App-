@@ -130,19 +130,14 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   
 }
-.cli-but p{
-  
-  
-  
-  
-}
+
 .img-lay-1{
   height: 70vh;
   padding: 0;
   margin-top: -2.8em;
   margin-left: 1.5em;
   margin-right: 1.5em;
-  background: url(images/img-lay-1.jpg);
+  background: url(images/lay/img-1.jpeg);
   background-size: cover;
   
 
@@ -153,7 +148,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 1.5em;
   margin-right: 1.5em;
   margin-top: 5em;
-  background: url(images/img-lay-2.jpg);
+  background: url(images/lay/img-2.jpeg);
   background-size: cover;
   
   
@@ -164,7 +159,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 1.5em;
   margin-right: 1.5em;
   margin-top: -7em;
-  background: url(images/img-lay-3.jpg);
+  background: url(images/lay/img-3.jpeg);
   background-size: cover;
   
   
