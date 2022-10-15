@@ -227,13 +227,13 @@ button h3{
   margin-top: -5em;
 }
 .carousel-1{
-  width: 10.3em;
+  width: 10.5em;
   height: 50vh;
   background: url(images/carousel/img-1.jpeg);
   background-size: cover;
 }
 .carousel-2{
-  width: 10.3em;
+  width: 10.5em;
   height: 50vh;
   background: url(images/carousel/img-2.jpeg);
   background-size: cover;
@@ -244,6 +244,7 @@ button h3{
 }
 .lor-car-2{
   margin-left: 0.5em;
+  margin-right: 0.2em;
 }
 .car-dol{
   display: flex;
