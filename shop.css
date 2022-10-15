@@ -1,0 +1,9 @@
+.foot-nav{
+    color: #ff3300; 
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0em 1.5em;
+    position: static;
+  }
