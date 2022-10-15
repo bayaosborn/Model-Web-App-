@@ -9,15 +9,14 @@ input{
     border: 0;
     margin-left: 1em;
 }
-::placeholder{
-    color: #000;
-    opacity: 1;
-    font-size: 1.1rem;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    line-height: 30px;
+input[type="text"].in-se::placeholder{
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  line-height: 30px;
 }
-
 .hero-img{
   position: absolute;
   top: 0;
@@ -53,8 +52,7 @@ nav{
 }
 .expand{
  width: 1.5rem;
-  
- }
+}
 nav ul li{
   list-style: none;
   position: relative;
@@ -85,65 +83,57 @@ nav ul li ul a{
   padding: 0 ;
   
 }
-
 .space{
-  margin-top: 69vh;
-  
+  margin-top: 69vh; 
 }
 .img-sep-1{
-  width: 68%;
+  width: 80%;
   height: 8em;
   background-color: #ff3300;
-  padding: 2em;
+  padding: 1em;
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-between; 
 }
 .img-sep-2{
-  width: 68%;
+  width: 80%;
   height: 8em;
   background-color: #859bcc;
-  padding: 2em;
+  padding: 1em;
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-between; 
 }
 .img-sep-3{
-  width: 68%;
+  width: 80%;
   height: 8em;
   background-color: #f7c028;
-  padding: 2em;
+  padding: 1em;
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-between; 
 }
 .img-sep-4{
-  width: 68%;
+  width: 80%;
   height: 8em;
   background-color: #b0e4a8;
-  padding: 2em;
+  padding: 1em;
   display: flex;
   justify-content: space-between;
-  
 }
 .img-sep-5{
-  width: 68%;
+  width: 80%;
   height: 5em;
   background-color: #f7c028;
-  padding: 2em;
+  padding: 1em;
   display: flex;
   justify-content: space-between;
-  
 }
 .img-sep-6{
   margin-top: 5em;
-  width: 68%;
-  height: 6em;
-  background-color: #aaaeb4;
-  padding: 2em;
+  width: 80%;
+  height: 9em;
+  background-color: #b0e4a8;
+  padding: 1em;
   display: flex;
   justify-content: space-between;
-  
 }
 button{
   background-color: white;
@@ -154,9 +144,8 @@ button{
 }
 button h3{
  font-weight: 790;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .cli-but{
   height: 60px;
   width: 60px;
@@ -166,67 +155,54 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .click{
   display: flex;
-  height: 5em;
-  margin-right: -3.5em;
-  
+  height: 4.5em;
+  margin-right: -2.2em;  
 }
-.click-6{
+.send-1{
   display: flex;
   height: 3.8em;
-  margin-right: -5.5em;
-  
+  margin-right: -2.5em;
 }
-
+.send-2{
+  display: flex;
+  height: 3.8em;
+}
 .img-lay-1{
   height: 60vh;
   padding: 0;
-  margin-top: -4em;
+  margin-top: -3.5em;
   margin-left: 1.5em;
   margin-right: 1.5em;
   background: url(images/lay/img-1.jpeg);
   background-size: cover;
-  
-
 }
 .img-lay-2{
   height: 60vh;
   padding: 0;
   margin-left: 1.5em;
   margin-right: 1.5em;
-  margin-top: -4em;
+  margin-top: -3.5em;
   background: url(images/lay/img-2.jpeg);
-  background-size: cover;
-  
-  
+  background-size: cover;  
 }
 .img-lay-3{
   height: 60vh;
   padding: 0;
   margin-left: 1.5em;
   margin-right: 1.5em;
-  margin-top: -4em;
+  margin-top: -3.5em;
   background: url(images/lay/img-3.jpeg);
-  background-size: cover;
-  
-  
+  background-size: cover; 
 }
 .img-lay-4{
   height: 60vh;
   padding: 0;
   margin-left: 1.5em;
   margin-right: 1.5em;
-  margin-top: -4em;
+  margin-top: -3.5em;
   background: url(images/lay/img-4.jpeg);
   background-size: cover;
-  
-  
 }
-
-
-
-
-
-
 .se-in{
   border-bottom: #000 2px solid;
   margin-left: 1.3rem;
@@ -242,7 +218,72 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 0;
   padding-bottom: 0;
 }
-
 .expand{
   width: 1em;
 }
+.carousel{
+  width: auto;
+  display: flex;
+  margin-top: -5em;
+}
+.carousel-1{
+  width: 11em;
+  height: 50vh;
+  background: url(images/carousel/img-1.jpeg);
+  background-size: cover;
+}
+.carousel-2{
+  width: 11em;
+  height: 50vh;
+  background: url(images/carousel/img-2.jpeg);
+  background-size: cover;
+}
+.lor-car-1{
+  margin-left: 0.5em;
+  margin-right: 0.2em;
+}
+.lor-car-2{
+  margin-left: 0.5em;
+}
+.car-dol{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -1.3em;
+}
+.lo-dol-1{
+  color: rgb(165, 165, 159);
+}
+.lo-dol-2{
+  margin-right: 5em;  
+}
+.sub{
+  height: 15em;
+  background-color: #859bcc;
+  padding: .5em;
+  margin: 0; 
+}
+.em-se{
+  display: flex; 
+  justify-content: space-between;
+}
+.email{
+ border-bottom: black solid 1px;
+}
+input[type="email"].email::placeholder{
+  color: #615754;
+  opacity: 1;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  line-height: 30px;
+}
+.foot-nav{
+  color: #ff3300; 
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0em 1.5em;
+  position: static;
+}
+
