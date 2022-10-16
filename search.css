@@ -82,7 +82,7 @@ input{
 .click{
   display: flex;
   height: 3.5em;
-  padding-top: .5 em;
+  padding-top: 0em;
 
  
 }
@@ -118,8 +118,7 @@ input{
 .img-sep-2 .click{
   display: flex;
   height: 3,7em;
-
-  margin-top: 3em;
+  margin-top: 2em;
 }
 .img-sep-3{
   width: 90%;
@@ -143,7 +142,7 @@ input{
 .img-sep-3 .click{
   display: flex;
   height: 3.7em;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 .img-sep-4{
   width: 90%;
@@ -167,7 +166,7 @@ input{
 .img-sep-4 .click{
   display: flex;
   height: 3.7em;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 .img-sep-5{
   width: 90%;
@@ -191,7 +190,7 @@ input{
 .img-sep-5 .click{
   display: flex;
   height: 3.7em;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 .foot-nav{
