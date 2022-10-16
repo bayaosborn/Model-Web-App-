@@ -44,8 +44,8 @@ input{
   margin-right: 1.3rem;
 }
 .img-sep-1{
-  width: 85%;
-  height: 18em;
+  width: 90%;
+  height: 14.6em;
   background-color: #f7c028;
 }
 .img-sep-1 ul li{
@@ -72,7 +72,8 @@ input{
 }
 .text-click{
   display: grid;
-  padding: 1em;
+  padding: .5em;
+  width: 40%;
  
   
   
@@ -80,24 +81,118 @@ input{
 }
 .click{
   display: flex;
-  height: 4.5em;
+  height: 3.5em;
+  padding-top: .5 em;
 
  
 }
 .img-lay-1{
   
-  height: 38vh;
+  height: 28vh;
   padding: 0;
-  width: 40em;
-  margin-right: -2.5em;
-  background: url(images/hero/img.jpeg);
+  width: 43em;
+  margin-right: -1.5em;
+  background: url(images/lay/search/img-1.jpeg);
   background-size: cover;
  
 }
+.img-sep-2{
+  width: 90%;
+  height: 13em;
+  background-color: #859bcc;
+  margin-top: 4em;
+}
+.img-lay-2{
+  height: 30vh;
+  padding: 0;
+  width: 43em;
+  margin-top: 2em;
+  margin-right: -1.5em;
+  background: url(images/lay/search/img-2.jpeg);
+  background-size: cover;
+}
+.img-sep-2 .text-click h1{
+  text-align: center;
+  margin-top: 3em;
+}
+.img-sep-2 .click{
+  display: flex;
+  height: 3,7em;
 
-
-
-
+  margin-top: 3em;
+}
+.img-sep-3{
+  width: 90%;
+  height: 13em;
+  background-color: #fc4011;
+  margin-top: 4em;
+}
+.img-lay-3{
+  height: 30vh;
+  padding: 0;
+  width: 43em;
+  margin-top: 2em;
+  margin-right: -1.5em;
+  background: url(images/lay/search/img-3.jpeg);
+  background-size: cover;
+}
+.img-sep-3 .text-click h1{
+  text-align: center;
+  margin-top: 3em;
+}
+.img-sep-3 .click{
+  display: flex;
+  height: 3.7em;
+  margin-top: 3em;
+}
+.img-sep-4{
+  width: 90%;
+  height: 13em;
+  background-color: #b0e4a8;
+  margin-top: 4em;
+}
+.img-lay-4{
+  height: 30vh;
+  padding: 0;
+  width: 43em;
+  margin-top: 2em;
+  margin-right: -1.5em;
+  background: url(images/lay/search/img-4.jpeg);
+  background-size: cover;
+}
+.img-sep-4 .text-click h1{
+  text-align: center;
+  margin-top: 3em;
+}
+.img-sep-4 .click{
+  display: flex;
+  height: 3,7em;
+  margin-top: 3em;
+}
+.img-sep-5{
+  width: 90%;
+  height: 13em;
+  background-color: #f7c028;
+  margin-top: 4em;
+}
+.img-lay-5{
+  height: 30vh;
+  padding: 0;
+  width: 43em;
+  margin-top: 2em;
+  margin-right: -1.5em;
+  background: url(images/lay/search/img-5.jpeg);
+  background-size: cover;
+}
+.img-sep-5 .text-click h1{
+  text-align: center;
+  margin-top: 3em;
+}
+.img-sep-5 .click{
+  display: flex;
+  height: 3,7em;
+  margin-top: 3em;
+}
 
 .foot-nav{
   color: #ff3300; 
@@ -105,5 +200,5 @@ input{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0em 1.5em;
+  margin: 2em 1.5em;
 }
