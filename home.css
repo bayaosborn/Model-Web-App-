@@ -1,13 +1,12 @@
-
 body{
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
 input{
-    background-color: rgba(0, 0, 0, 0.001);
-    border: 0;
-    margin-left: 1em;
+  background-color: rgba(0, 0, 0, 0.001);
+  border: 0;
+  margin-left: 1em;
 }
 input[type="text"].in-se::placeholder{
   color: rgb(0, 0, 0);
@@ -33,17 +32,33 @@ nav{
   width: 100%;
   height: 60px;
   margin-top: 0;
-  margin-top: 0%;
+  margin-top: 0;
 }
 .top-bar{
   margin: 0;
   padding: 0;
-  
+  height: 3em;
 }
 .se-in{
   margin: 0;
   padding: 0;
   width: 50%;
+  border-bottom: #000 2px solid;
+  margin-left: 1.3rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  display: flex;
+}
+.top-bar{
+  display: flex;
+}
+.search{ 
+  width: 1.5em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.expand{
+  width: 1em;
 }
 .menu{
  margin-left: auto;
@@ -56,10 +71,8 @@ nav{
 nav ul li{
   list-style: none;
   position: relative;
-  
 }
 nav ul li a{
-  
   font-family: Arial, Helvetica, sans-serif;
   color: black;
   line-height: 2rem;
@@ -71,8 +84,6 @@ nav ul li ul{
   padding: 0px;
   text-align: left;
   margin: 0;
- 
-  
 }
 nav ul li:hover ul{
   display: block;
@@ -80,8 +91,7 @@ nav ul li:hover ul{
 }
 
 nav ul li ul a{
-  padding: 0 ;
-  
+  padding: 0; 
 }
 .space{
   margin-top: 70vh; 
@@ -173,7 +183,7 @@ button h3{
   margin-top: -3.5em;
   margin-left: 1.5em;
   margin-right: 1.5em;
-  background: url(images/lay/img-1.jpeg);
+  background: url(images/lay/home/img-1.jpeg);
   background-size: cover;
 }
 .img-lay-2{
@@ -182,7 +192,7 @@ button h3{
   margin-left: 1.5em;
   margin-right: 1.5em;
   margin-top: -3.5em;
-  background: url(images/lay/img-2.jpeg);
+  background: url(images/lay/home/img-2.jpeg);
   background-size: cover;  
 }
 .img-lay-3{
@@ -191,7 +201,7 @@ button h3{
   margin-left: 1.5em;
   margin-right: 1.5em;
   margin-top: -3.5em;
-  background: url(images/lay/img-3.jpeg);
+  background: url(images/lay/home/img-3.jpeg);
   background-size: cover; 
 }
 .img-lay-4{
@@ -200,27 +210,10 @@ button h3{
   margin-left: 1.5em;
   margin-right: 1.5em;
   margin-top: -3.5em;
-  background: url(images/lay/img-4.jpeg);
+  background: url(images/lay/home/img-4.jpeg);
   background-size: cover;
 }
-.se-in{
-  border-bottom: #000 2px solid;
-  margin-left: 1.3rem;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  display: flex;
-}
-.top-bar{
-  display: flex;
-}
-.search{ 
-  width: 1.5em;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-.expand{
-  width: 1em;
-}
+
 .carousel{
   width: auto;
   display: flex;
